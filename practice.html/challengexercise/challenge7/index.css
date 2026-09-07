@@ -1,0 +1,31 @@
+.email{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    color: #575151;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.email-input{
+    width:330px;
+    padding: 7px;
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+.privacy-policy{
+    width: 340px;
+    font-size:14px;
+    color: #575151;
+    
+}
+.button-container{
+    
+}
+.primary-button{
+    width: 340px;
+   padding:10px;
+   background-color:rgb(11, 139, 236);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+}

@@ -1,0 +1,64 @@
+/*pagination*/
+.back-btn{
+    padding: 10px ;
+    font-size: large;
+    margin: 10px;
+    cursor: pointer;
+}
+a{
+    margin: 3px;
+    color: rgb(104, 14, 188);
+    font-size: large;
+}
+.next-btn{
+    padding: 10px ;
+    font-size: large;
+    margin: 10px;
+    cursor: pointer;
+}
+/*noe the stratch button*/
+.stratch-btn{
+    background-color: green;
+    border: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: padding 0.4s;
+    color: #fff;
+}
+.stratch-btn:hover{
+    padding:18px 30px;
+}
+/*shadow button*/
+.shadow-btn{
+    background-color: green;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 8px 15px;
+    box-shadow:3px 3px 5px rgba(0,0,0,0.3);
+}
+.shadow-btn:active{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    box-shadow: none;
+}
+/*this is the margin padding toghter buttons ok*/
+.togather{
+    background-color: green;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 20px;
+    margin: 10px 40px;
+    transition: padding-left 0.3s , padding-right 0.3s ,margin-left 0.3s ,margin-right 0.3s;
+}
+.togather:hover{
+    padding-left: 35px;
+    padding-right: 35px;
+
+    margin-left: 25px;
+    margin-right: 25px;
+}
+

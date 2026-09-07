@@ -1,0 +1,24 @@
+.t1{
+    width: 300px;
+}
+
+.channel-picture{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+    
+
+} 
+.video-info{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+.profile-picture{
+    width: 40px;
+    border-radius: 50px;
+}
+.video-title{
+    margin-top: 0;
+    margin-bottom: 0;
+}

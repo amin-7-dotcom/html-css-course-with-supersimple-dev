@@ -1,0 +1,76 @@
+.first-last{
+    display: inline-block;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border: 1px solid rgb(168, 162, 162);
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.email{
+    display: block;
+    width: 235px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border: 1px solid rgb(168, 162, 162);
+    border-radius:6px;
+    margin-bottom: 6px;
+}
+.btn{
+    width: 268px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(7, 114, 228);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+}
+
+/*
+This is now uber request form */
+.ride{
+    font-family: arial;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.location{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 150px 10px 10px;
+    background-color: rgba(240, 240, 240, 0.822);
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.distenation{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 150px 10px 10px;
+    background-color: rgba(240, 240, 240, 0.822);
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.request-btn{
+    padding: 15px 20px;
+    font-size: 15px;
+    background-color: #000;
+    color: #fff;
+    margin-right: 10px;
+    border: none;
+}
+.later{
+    padding: 15px 20px;
+    font-size: 15px;
+    background-color:rgba(240, 240 ,240,0.822);
+    border: none;
+    margin-right: 10px;
+}

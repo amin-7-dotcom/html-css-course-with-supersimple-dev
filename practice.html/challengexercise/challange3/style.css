@@ -1,0 +1,118 @@
+.first{
+    text-align: center;
+    margin-bottom: 6px;
+    margin-top: 0px;
+    font-family: arial;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.second{
+    text-align: center;
+    margin-bottom:0px;
+    margin-top: 0px;
+    font-family: arial;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.third{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: arial;
+
+}
+
+.fourth{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-family: arial;
+    font-size: 16px;
+    color:rgb(57, 56, 56)
+}
+
+.five{
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+.six{
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    color:rgb(57, 56, 56);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border:none;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/*this is challange 2*/
+p{
+    font-family: arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.one{
+    font-family: arial;
+    font-size: 32px;
+}
+.one1{
+    font-size: 16px;
+    color:rgb(119, 116, 116);
+}
+.two{
+    font-family: arial;
+    color:green;
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+.three{
+    color:rgb(119, 116, 116);
+}
+.three1{
+    color:red;
+
+}
+/*this is now challange 3*/
+.a{
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.a1{
+    color:rgb(119, 116, 116);
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.b{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    line-height: 24px;
+    width:600px;
+
+}
+.c{
+    font-size:18px;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+.c1{
+    color:rgb(98, 178, 209);
+}
