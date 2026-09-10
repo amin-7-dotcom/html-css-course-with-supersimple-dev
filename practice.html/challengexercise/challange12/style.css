@@ -1,0 +1,22 @@
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-family: Arial;
+    font-size: 18px;
+    margin-bottom:10px ;
+}
+.btn{
+    background-color: rgb(8, 123, 238);
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.main{
+    width: 300px;
+    border: 1px solid gray;
+    padding: 10px 15px;
+    border-radius: 14px;
+}
