@@ -1,0 +1,20 @@
+.main{
+    display: flex;
+    height: 70px;
+}
+.one{
+    background-color: rgb(247, 177, 177);
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two{
+    background-color: skyblue;
+    width: 200px;
+}
+.item{
+    background-color: black;
+    color: #fff;
+    
+}

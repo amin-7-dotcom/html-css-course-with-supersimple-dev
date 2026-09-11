@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    height: 70px;
+}
+
+.first{
+    background-color: rgb(238, 157, 184);
+    width: 100px;
+}
+.second{
+    background-color: skyblue;
+    width: 200px;
+}
+.item-1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.blue{
+    display: flex;
+    justify-content: space-between;
+}
+.item-2{
+    background-color: black;
+    color: #fff;
+}
+.item-3{
+    background-color: black;
+    color: #fff;
+}
