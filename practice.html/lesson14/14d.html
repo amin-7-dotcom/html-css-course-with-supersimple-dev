@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidebar</title>
+    <style>
+        body{
+            height: 3000px;
+        }
+        .b{
+            background-color: green;
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            width: 100px;
+        }
+        .main{
+            background-color: rgba(0,0,0,0.5);
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .main2{
+            background-color: white;
+            border-radius: 10px;
+            width: 300px;
+        }
+        .model-title{
+            font-family: Arial;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px;
+        }
+        .model-content{
+            font-family: Arial;
+            margin: 10px;
+        }
+        .btn{
+            font-family: Arial;
+            margin-left:10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="b">sidebar</div>
+    <div class="main">
+        <div class="main2">
+            <div class="model-title">
+                Model Title
+            </div>
+            <div class="model-content"> This is a model</div>
+            <button class="btn">close</button>
+        </div>
+    </div>
+</body>
+</html>
