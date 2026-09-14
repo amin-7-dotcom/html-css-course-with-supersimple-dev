@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+    <style>
+        body{
+            height: 3000px;
+        }
+        .main{
+            position: relative;
+            display: inline-block;
+        }
+        .shirt{
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+        .promotion{
+            position: absolute;
+            background-color: black;
+            color: white;
+            top: 10px;
+            right: 0;
+            font-family: Arial;
+            padding: 10px;
+        }
+        .overlay{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            background-color:rgba(255,255,255,0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .btn{
+            background-color: #fff;
+            padding:8px 15px;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: Arial;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img class="shirt" src="/practice.html/images/t shirt.jfif" alt="shirt">
+        <div class="promotion">20% OFF</div>
+        <div class="overlay">
+            <button class="btn">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>

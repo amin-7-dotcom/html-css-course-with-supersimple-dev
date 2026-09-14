@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook add friend page</title>
+    <style>
+        *{
+            font-family: Arial;
+        }
+        body{
+            background-color: black;
+        }
+        .main{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            background-color:white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        .image{
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 20px;
+            margin-left: 60px;
+            margin-right: 10px;
+        }
+        p{
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .profile-pic{
+            display: inline-flex;
+        }
+        .buttons{
+            display: inline-flex;
+            margin-right: 60px;
+        }
+        .add{
+            margin-right: 5px;
+            background-color: rgb(6, 133, 245);
+            color: white;
+            border: none;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .msg{
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="profile-pic">
+            <img class="image" src="/practice.html/images/cat.jpg" alt="cat">
+            <p>Oliver cat</p>
+        </div>
+        <div class="buttons">
+            <button class="add">Add Friend</button>
+            <button class="msg">Message</button>
+        </div>
+    </div>
+</body>
+</html>
